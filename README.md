@@ -36,4 +36,6 @@ kubectl apply -f deploy.yaml
 -------------------
 
 $ git clone https://github.com/thecloudknight/y42_task.git
+
+
 $ cd y42_task && sh autobot.sh 
