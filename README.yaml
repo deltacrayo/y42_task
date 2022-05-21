@@ -1,4 +1,4 @@
-Steps to complete task
+# Steps to complete task
 ----------------------
 
 1. Created flask app to return the mentioned json ( refer app/y42app.py )
@@ -9,7 +9,7 @@ Steps to complete task
 
 
 
-Tech Stack
+# Tech Stack
 -----------
 
 Coding: Vim
@@ -19,7 +19,7 @@ Builds: Docker
 Deploy: Kubernetes 
 
 
-Commands
+# Commands
 --------
 
 1. To build the image
@@ -32,7 +32,7 @@ docker build -t deltacrayo/y42 --build-arg build_date="$(date +%s)" .
 kubectl apply -f deploy.yaml
 
 
-Running the project
+# Running the project
 -------------------
 
 $ git clone https://github.com/thecloudknight/y42_task.git
